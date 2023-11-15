@@ -1,5 +1,3 @@
-ціональність Razor Pages. Для цього відкриємо файл Program.cs і змінимо його так:
-
 var builder = WebApplication.CreateBuilder(args);
 
 // додаємо у додаток сервіси Razor Pages
@@ -12,4 +10,4 @@ var app = builder.Build();
 
 app.MapRazorPages();
 
-app.Run()
+app.Run();
